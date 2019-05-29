@@ -5,7 +5,8 @@
   "main": "polylabel.js",
   "scripts": {
     "pretest": "eslint *.js test/*.js",
-    "test": "tape test/test.js"
+    "test": "tape test/test.js",
+    "webpack": "webpack"
   },
   "keywords": [],
   "author": "Vladimir Agafonkin",
@@ -13,7 +14,9 @@
   "devDependencies": {
     "eslint": "^3.0.1",
     "eslint-config-mourner": "^2.0.1",
-    "tape": "^4.6.0"
+    "tape": "^4.6.0",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2"
   },
   "eslintConfig": {
     "extends": "mourner"
